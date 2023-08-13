@@ -4,33 +4,35 @@ Don't forget to fill all the given fields because the form doesn't get submitted
 
 The structure of a Django project typically follows a specific layout to maintain clarity, organization, and modularity. Here's a structure for a Byrny-Gas-Company-Assessment-Project Django application:
 
-Bynry_Gas_Company_Assessment/
-├── manage.py
-├── project_name/  
-│   ├── __init__.py
-│   ├── asgi.py
-│   ├── settings.py
-│   ├── urls.py
-|   ├── wsgi.py
-│   └── templates
-|          └── gas_company_services
-|                  ├── list_all_customer_requests.html
-|                  ├── request_successfully_submitted.html
-|                  └── submit_customer_request.html
-├── Bynry_Gas_Company_Application/
-│   ├── migrations/
-│   │   ├── __init__.py
-│   │   ├── __pycache__/
-|   |            └── ...
-│   │   └── ...
-│   ├── __init__.py
-│   ├── admin.py
-│   ├── apps.py
-│   ├── models.py
-│   ├── tests.py
-│   ├── urls.py
-│   ├── forms.py
-│   └── views.py
-└── media/
-       └── attachments/
-               └── ...
+
+Byrny-Gas-Company-Assessment-Project/
+└── Bynry_Gas_Company_Assessment/
+       ├── manage.py
+       ├── project_name/  
+       │   ├── __init__.py
+       │   ├── asgi.py
+       │   ├── settings.py
+       │   ├── urls.py
+       |   ├── wsgi.py
+       │   └── templates
+       |          └── gas_company_services
+       |                  ├── list_all_customer_requests.html
+       |                  ├── request_successfully_submitted.html
+       |                  └── submit_customer_request.html
+       ├── Bynry_Gas_Company_Application/
+       │   ├── migrations/
+       │   │   ├── __init__.py
+       │   │   ├── __pycache__/
+       |   |            └── ...
+       │   │   └── ...
+       │   ├── __init__.py
+       │   ├── admin.py
+       │   ├── apps.py
+       │   ├── models.py
+       │   ├── tests.py
+       │   ├── urls.py
+       │   ├── forms.py
+       │   └── views.py
+       └── media/
+              └── attachments/
+                      └── ...
